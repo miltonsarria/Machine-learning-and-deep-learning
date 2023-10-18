@@ -1,0 +1,7 @@
+# Instance Based Learning - SVM KNN y el problema multiclase
+
+El k-Vecinos más Cercanos (KNN) y las Máquinas de Vectores de Soporte (SVM) son dos algoritmos de aprendizaje supervisado que abordan diferentes enfoques para la clasificación de datos. KNN se basa en la cercanía en el espacio de características: clasifica un punto según las etiquetas de los k puntos más cercanos en el conjunto de entrenamiento. Es una técnica simple pero efectiva, especialmente en conjuntos de datos pequeños o sin estructura clara. Por otro lado, las SVM buscan encontrar un hiperplano en un espacio dimensional superior que maximice el margen entre las clases. Esto las convierte en una herramienta poderosa para la clasificación lineal y no lineal, aunque requieren una selección cuidadosa de kernel y parámetros de regularización.
+
+Cuando se trata del problema multiclase, ambos algoritmos tienen enfoques distintos. KNN puede extenderse fácilmente a la clasificación multiclase utilizando esquemas como One-vs-Rest u One-vs-One. Por otro lado, las SVM tradicionalmente son clasificadores binarios, pero también pueden ser adaptadas al problema multiclase mediante técnicas como One-vs-Rest o utilizando clasificadores SVM multiclase específicos como el enfoque One-vs-One.
+
+En resumen, KNN y SVM son dos algoritmos potentes en clasificación, cada uno con sus fortalezas y enfoques específicos para el problema multiclase. La elección entre ellos dependerá del tipo de datos y del contexto de la aplicación.
